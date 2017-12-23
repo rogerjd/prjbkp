@@ -48,8 +48,9 @@ namespace prjbkp
             foreach (var f in files)
             {
                 Console.WriteLine(f);
+                string dest = Path.Combine(BkpDirName, Path.GetFileName(f));
+                File.Copy(f, dest);
             }
-            //copy, foreach file
         }
 
         static Tuple<string, bool> getPrjDirName(string tktNum)
