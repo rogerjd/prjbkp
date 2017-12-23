@@ -12,6 +12,7 @@ namespace prjbkp
         static string PrjNum;
 
         static string PrjsPath = @"Z:\HomecareRND\Users\Roger\prjs";
+//        static string PrjsPath = @"C:\prjs";
 
         static void Main(string[] args)
         {
@@ -43,7 +44,7 @@ namespace prjbkp
             Directory.CreateDirectory(BkpDirName);
 
             //get file list
-            var files = File.ReadAllLines(PrjDirName);
+            var files = File.ReadAllLines(PrjDirName + @"\FileList.txt");
             foreach (var f in files)
             {
                 Console.WriteLine(f);
