@@ -1,6 +1,6 @@
-c:\users\rdemagri\documents\visual studio 2015\Projects\prjbkp\prjbkp\bin\Debug\prjbkp.exe.config
-c:\users\rdemagri\documents\visual studio 2015\Projects\prjbkp\prjbkp\bin\Debug\prjbkp.exe
-c:\users\rdemagri\documents\visual studio 2015\Projects\prjbkp\prjbkp\bin\Debug\prjbkp.pdb
-c:\users\rdemagri\documents\visual studio 2015\Projects\prjbkp\prjbkp\obj\Debug\prjbkp.csprojResolveAssemblyReference.cache
-c:\users\rdemagri\documents\visual studio 2015\Projects\prjbkp\prjbkp\obj\Debug\prjbkp.exe
-c:\users\rdemagri\documents\visual studio 2015\Projects\prjbkp\prjbkp\obj\Debug\prjbkp.pdb
+C:\Users\rdemagri\Documents\Visual Studio 2015\Projects\prjbkp\prjbkp\bin\Debug\prjbkp.exe.config
+C:\Users\rdemagri\Documents\Visual Studio 2015\Projects\prjbkp\prjbkp\bin\Debug\prjbkp.exe
+C:\Users\rdemagri\Documents\Visual Studio 2015\Projects\prjbkp\prjbkp\bin\Debug\prjbkp.pdb
+C:\Users\rdemagri\Documents\Visual Studio 2015\Projects\prjbkp\prjbkp\obj\Debug\prjbkp.csprojResolveAssemblyReference.cache
+C:\Users\rdemagri\Documents\Visual Studio 2015\Projects\prjbkp\prjbkp\obj\Debug\prjbkp.exe
+C:\Users\rdemagri\Documents\Visual Studio 2015\Projects\prjbkp\prjbkp\obj\Debug\prjbkp.pdb
