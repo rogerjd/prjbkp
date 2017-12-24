@@ -19,7 +19,7 @@ namespace prjbkp
             //Args
             if (args.Length == 0)
             {
-                Console.WriteLine("Prj Name is missing");
+                Console.WriteLine("Prj Num is missing");
                 Console.ReadLine();
                 return;
             }
@@ -45,12 +45,17 @@ namespace prjbkp
 
             //get file list
             var files = File.ReadAllLines(PrjDirName + @"\FileList.txt");
+            int copied = 0;
             foreach (var f in files)
             {
                 Console.WriteLine(f);
                 string dest = Path.Combine(BkpDirName, Path.GetFileName(f));
                 File.Copy(f, dest);
+                copied++;
             }
+
+            Console.WriteLine($"success, copied {copied} files");
+            Console.ReadLine();
         }
 
         static Tuple<string, bool> getPrjDirName(string tktNum)
@@ -77,7 +82,7 @@ namespace prjbkp
 
         static string getBkpDirName()
         {
-            return DateTime.Now.ToString("yyyymmddhhmm");
+            return DateTime.Now.ToString("yyyyMMddHHmmss");
         }
     }
 }
