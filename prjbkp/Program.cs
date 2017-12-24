@@ -9,7 +9,7 @@ namespace prjbkp
 {
     class PrjBkp
     {
-        static string PrjNum;
+        //static string PrjNum;
 
         static string PrjsPath = @"Z:\HomecareRND\Users\Roger\prjs";
 //        static string PrjsPath = @"C:\prjs";
@@ -24,7 +24,7 @@ namespace prjbkp
                 return;
             }
 
-            PrjNum = args[0];
+            string PrjNum = args[0];
 
             //get prj dir name
             var prjDirInfo = getPrjDirName(PrjNum);
@@ -58,7 +58,7 @@ namespace prjbkp
             Console.ReadLine();
         }
 
-        static Tuple<string, bool> getPrjDirName(string tktNum)
+        static Tuple<string, bool> getPrjDirName(string PrjNum)
         {
             int found = 0;
             string PrjDirName = "";
