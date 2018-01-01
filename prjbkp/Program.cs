@@ -55,9 +55,9 @@ namespace prjbkp
                     File.Copy(f, dest);
                     copied++;
                 }
-                catch (Exception)
+                catch (Exception e)
                 {
-                    Console.WriteLine($"Error copying: {f} to {dest}");
+                    Console.WriteLine($"Error copying: {f} to {dest}. \r\n Error: {e.Message}");
                     errs++;
                 }
             }
