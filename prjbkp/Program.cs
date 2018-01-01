@@ -45,16 +45,31 @@ namespace prjbkp
 
             //get file list
             var files = File.ReadAllLines(PrjDirName + @"\FileList.txt");
-            int copied = 0;
+            int copied = 0, errs = 0;
             foreach (var f in files)
             {
                 Console.WriteLine(f);
                 string dest = Path.Combine(BkpDirName, Path.GetFileName(f));
-                File.Copy(f, dest);
-                copied++;
+                try
+                {
+                    File.Copy(f, dest);
+                    copied++;
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine($"Error copying: {f} to {dest}");
+                    errs++;
+                }
             }
 
-            Console.WriteLine($"success, copied {copied} files");
+            if (errs == 0)
+            {
+                Console.WriteLine($"success, copied {copied} files");
+            }
+            else
+            {
+                Console.WriteLine($"ERRORS, num of errors: {errs},  copied {copied} files");
+            }
             Console.ReadLine();
         }
 

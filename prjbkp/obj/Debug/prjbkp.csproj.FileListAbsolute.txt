@@ -4,3 +4,10 @@ C:\Users\rdemagri\Documents\Visual Studio 2015\Projects\prjbkp\prjbkp\bin\Debug\
 C:\Users\rdemagri\Documents\Visual Studio 2015\Projects\prjbkp\prjbkp\obj\Debug\prjbkp.csprojResolveAssemblyReference.cache
 C:\Users\rdemagri\Documents\Visual Studio 2015\Projects\prjbkp\prjbkp\obj\Debug\prjbkp.exe
 C:\Users\rdemagri\Documents\Visual Studio 2015\Projects\prjbkp\prjbkp\obj\Debug\prjbkp.pdb
+C:\Users\roger\Documents\Visual Studio 2017\Projects\prjbkp\prjbkp\bin\Debug\prjbkp.exe.config
+C:\Users\roger\Documents\Visual Studio 2017\Projects\prjbkp\prjbkp\bin\Debug\prjbkp.exe
+C:\Users\roger\Documents\Visual Studio 2017\Projects\prjbkp\prjbkp\bin\Debug\prjbkp.pdb
+C:\Users\roger\Documents\Visual Studio 2017\Projects\prjbkp\prjbkp\obj\Debug\prjbkp.csprojResolveAssemblyReference.cache
+C:\Users\roger\Documents\Visual Studio 2017\Projects\prjbkp\prjbkp\obj\Debug\prjbkp.csproj.CoreCompileInputs.cache
+C:\Users\roger\Documents\Visual Studio 2017\Projects\prjbkp\prjbkp\obj\Debug\prjbkp.exe
+C:\Users\roger\Documents\Visual Studio 2017\Projects\prjbkp\prjbkp\obj\Debug\prjbkp.pdb
